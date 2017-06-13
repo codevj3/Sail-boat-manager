@@ -1,0 +1,93 @@
+
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+html {
+    height: 100%;
+}
+
+
+a{
+    color:#C03035;
+}
+
+a:hover {
+    outline: none;
+    text-decoration:none;
+    color:#4fcccd;
+}
+
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1{
+    color: #686868;
+}
+
+h2{
+    font-size: 24px;
+    color: #686868;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.hasError{
+    border: 1px solid red;
+}
+.form-control.hasError{
+    border: 1px solid red;
+}
+.btn-common {
+    font-size: 14px;
+    color: #0099ae;
+    border: 1px solid #0099ae;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+}
+.marT50{
+    margin-top: 50px;
+}
+.marB50{
+    margin-bottom:50px;
+}
+#action .col-sm-5{
+    position: absolute;
+
+    top: 0;
+    height: 100%;
+    right: 0;
+}
